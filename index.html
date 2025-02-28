@@ -167,6 +167,18 @@
     }
 </style>
 
+<style>
+    @media (max-width: 576px) {
+        .bg-primary {
+            padding: 20px;
+        }
+        .btn {
+            width: 100%;
+            /* Make button full width on small screens */
+        }
+    }
+</style>
+
 <body>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -310,19 +322,21 @@
         <div class="container py-5 pt-lg-0">
             <div class="row gx-0">
                 <div class="col-lg-12 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="bg-primary shadow d-flex align-items-center justify-content-between h-100 p-4" style="min-height: 150px;">
-                        <div class="d-flex">
-                            <div class="ps-4">
-                                <h5>Know more about our admission process and requirements and become a part of the Cotabato State University - CETC. </h5>
+                    <div class="bg-primary shadow d-flex flex-column flex-md-row align-items-center justify-content-between h-100 p-4 text-center text-md-start" style="min-height: 150px;">
+                        <div class="d-flex flex-column">
+                            <div class="ps-0 ps-md-4">
+                                <h5>Know more about our admission process and requirements and become a part of the Cotabato State University - CETC.</h5>
                             </div>
                         </div>
-                        <a href="#" class="bg-white btn btn-light ms-auto">Enrollment Procedure</a>
+                        <a href="#" class="bg-white btn btn-light mt-3 mt-md-0 ms-md-auto">Enrollment Procedure</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- Facts End -->
+
+
     <style>
         .container1 {
             display: flex;
